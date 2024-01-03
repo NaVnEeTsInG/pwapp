@@ -1,0 +1,30 @@
+{
+    "name": "Varanasi Software PWA",
+    "short_name": "VSJPWA",
+    "description": "Varanasi Software Progressive Web App",
+    "scope": "/vsjpwa/",
+    "start_url": "/vsjpwa/",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "standalone", 
+    "icons": [
+        {
+          "src": "/vsjpwa/img/icon.png",
+          "type": "image/png",
+          "sizes": "700x700"
+        }
+    ],
+ 
+    "file_handlers": [
+        {
+            "action": "/open-file",
+            "accept": {
+                "text/*": [".txt"]
+            }
+        }
+   ]
+
+
+  }
+
+  
