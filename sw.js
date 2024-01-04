@@ -4,8 +4,9 @@ var VERSION = 'version_008';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
-  `${GHPATH}/css/style.css`,
-  `${GHPATH}/js/app.js`
+  `${GHPATH}/style.css`,
+  `${GHPATH}/icon.png`,
+  `${GHPATH}/app.js`
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION
@@ -24,15 +25,6 @@ self.addEventListener('fetch', function (e) {
   )
 })
 
-
-// document.addEventListener("DOMContentLoaded", event => {
-//     // we can move only if we are not in a browser's tab
-//     isBrowser = matchMedia("(display-mode: browser)").matches;
-//     if (!isBrowser) {
-//        window.moveTo(16, 16);
-//        window.resizeTo(800, 600);
-//     }
-//  });
 
 self.addEventListener('install', function (e) {
   e.waitUntil(
