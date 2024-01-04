@@ -1,15 +1,15 @@
 {
-    "name": "Varanasi Software PWA",
-    "short_name": "VSJPWA",
-    "description": "Varanasi Software Progressive Web App",
-    "scope": "/vsjpwa/",
-    "start_url": "/vsjpwa/",
+    "name": "PWA",
+    "short_name": "PWA",
+    "description": "Progressive Web App",
+    "scope": "/pwapp/",
+    "start_url": "/pwapp/",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "display": "standalone", 
     "icons": [
         {
-          "src": "/vsjpwa/img/icon.png",
+          "src": "/pwa/img/icon.png",
           "type": "image/png",
           "sizes": "700x700"
         }
@@ -18,4 +18,4 @@
 
   }
 
-  
+
