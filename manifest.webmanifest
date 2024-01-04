@@ -13,17 +13,8 @@
           "type": "image/png",
           "sizes": "700x700"
         }
-    ],
- 
-    "file_handlers": [
-        {
-            "action": "/open-file",
-            "accept": {
-                "text/*": [".txt"]
-            }
-        }
-   ]
-
+    ]
+    
 
   }
 

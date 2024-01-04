@@ -4,29 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navneet</title>
+
+    <link rel="canonical" href="https://navneetsing.github.io/pwapp/" />
+
+    <link rel="manifest" href="/pwa/manifest.webmanifest">
+    <link rel="stylesheet" href="pwa/style.css">
   </head> <script>
         if (navigator.serviceWorker) {
           navigator.serviceWorker.register (
-            '/sw.js',
-            {scope: '/pwapp/'}
+            '/pwa/sw.js',
+            {scope: '/pwa/'}
           )
         }
 
-        const [ handle ] = await window.showOpenFilePicker();
-        
     </script>
 
+<script src="/app.js"></script>
+
   <body>
-
- <h1>File System Access</h1>     
- You can open, edit and save text files with this demo.<br>
-  <div><textarea placeholder="drag and drop your audio file here " id="content" >
-  </textarea>
-<br>
- <button id="openfile">OPEN  FILE </button>
- <button id="savefile">SAVE  FILE </button>
-
-</form></div>
 
 </body>
 </html>
