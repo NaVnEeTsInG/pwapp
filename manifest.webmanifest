@@ -1,6 +1,6 @@
 {
-    "name": "PWA",
-    "short_name": "PWA",
+    "name": "NAVNEET's PWA",
+    "short_name": "NAV",
     "description": "Progressive Web App",
     "scope": "/pwapp/",
     "start_url": "/pwapp/",
