@@ -10,6 +10,7 @@ var URLS = [
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION
+console.log(`Cache Name ${CACHE_NAME} `);
 self.addEventListener('fetch', function (e) {
   console.log('Fetch request : ' + e.request.url);
   e.respondWith(
