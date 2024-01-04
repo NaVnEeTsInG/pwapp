@@ -1,6 +1,6 @@
 var GHPATH = '/pwapp';
 var APP_PREFIX = 'pwapp_';
-var VERSION = 'version_008';
+var VERSION = 'version_009';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
